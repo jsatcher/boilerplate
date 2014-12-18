@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="/static/css/main.css"/>
+<script type="text/javascript" src="/static/js/libs.min.js"></script>
+</head>
+<body>
+{{#if err}}
+<div class="row">
+  <div data-alert class="alert-box secondary columns small-15 small-centered text-center">
+    {{err}}
+  </div>
+</div>
+{{/if}}
+{{{body}}}
+<script type="text/javascript" src="/static/js/scripts.min.js"></script>
+</body>
+</html>

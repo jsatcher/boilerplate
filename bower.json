@@ -1,0 +1,21 @@
+{
+  "name": "Boilerplate",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "Scott Grogan <scott@ninjascript.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.6",
+    "angular": "~1.3.6"
+  }
+}

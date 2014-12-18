@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import "./_settings.scss";
+@import "./_mixins.scss";
+@import "../bower_components/foundation/scss/normalize.scss";
+@import "../bower_components/foundation/scss/foundation.scss";
+@import "./components/_typography.scss";
+
+:focus {
+    outline: none !important;
+}
+
+h1[role="logo"] {
+    margin: 0 auto;
+    width: 166px;
+    height: 125px;
+    margin-bottom: rem-calc(28);
+    overflow: hidden;
+    text-indent: -1000px;
+    background-image: url("/static/img/boilerplate_166x125@2x.png");
+    background-size: cover;
+}
+
+
