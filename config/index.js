@@ -10,10 +10,7 @@ nconf.file({ file: localConfigPath });
 
 // Usage: config.get('PLATFORM_HTTPS');
 nconf.defaults({
-    "PORT"              : 8080,
-    "PLATFORM_PROTOCOL" : 'http',
-    "PLATFORM_HOST"     : 'localhost',
-    "PLATFORM_PORT"     : 3030
+    "PORT"              : 8080
 });
 
 module.exports = nconf;
