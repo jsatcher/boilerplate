@@ -6,6 +6,11 @@ Boilerplate
 
 You must have [node](http://nodejs.org) and [ruby](https://www.ruby-lang.org/en/) installed to run this app on your machine. On OS X you can manage both through [homebrew](http://brew.sh/).
 
+```bash
+$> brew install node ruby
+... installs the latest versions of node and ruby on your OS X machine
+```
+
 You'll also need the [grunt](http://gruntjs.com) and [compass](http://compass-style.org/) libraries available on your PATH. This app uses **grunt** as a task runner, and **compass** to compile SCSS into CSS. 
 
 ```bash
